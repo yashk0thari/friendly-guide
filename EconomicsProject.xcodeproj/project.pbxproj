@@ -3,20 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC06E5B423A3E0BF001770D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5B323A3E0BF001770D3 /* AppDelegate.swift */; };
-		CC06E5B623A3E0BF001770D3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5B523A3E0BF001770D3 /* GameScene.sks */; };
-		CC06E5B823A3E0BF001770D3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5B723A3E0BF001770D3 /* Actions.sks */; };
-		CC06E5BA23A3E0BF001770D3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5B923A3E0BF001770D3 /* GameScene.swift */; };
-		CC06E5BC23A3E0BF001770D3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5BB23A3E0BF001770D3 /* GameViewController.swift */; };
+		45064D4B4C5E2EC5EA2DA12D /* Pods_EconomicsProject_EconomicsProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3620104CEB249DF5449EE4B9 /* Pods_EconomicsProject_EconomicsProjectUITests.framework */; };
+		AE6AF3C76FAB43F91ECC32B2 /* Pods_EconomicsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944CFF95D8442D6511DF3308 /* Pods_EconomicsProject.framework */; };
 		CC06E5BF23A3E0C0001770D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5BD23A3E0C0001770D3 /* Main.storyboard */; };
 		CC06E5C123A3E0C0001770D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5C023A3E0C0001770D3 /* Assets.xcassets */; };
 		CC06E5C423A3E0C0001770D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5C223A3E0C0001770D3 /* LaunchScreen.storyboard */; };
 		CC06E5CF23A3E0C0001770D3 /* EconomicsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5CE23A3E0C0001770D3 /* EconomicsProjectTests.swift */; };
 		CC06E5DA23A3E0C0001770D3 /* EconomicsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5D923A3E0C0001770D3 /* EconomicsProjectUITests.swift */; };
+		CC06E5E823A3E109001770D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5E723A3E109001770D3 /* AppDelegate.swift */; };
+		CC06E5ED23A3E12D001770D3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5E923A3E12D001770D3 /* GameViewController.swift */; };
+		CC06E5EE23A3E12D001770D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5EA23A3E12D001770D3 /* HomeViewController.swift */; };
+		CC06E5EF23A3E12D001770D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5EB23A3E12D001770D3 /* ViewController.swift */; };
+		CC06E5F023A3E12D001770D3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5EC23A3E12D001770D3 /* GameScene.swift */; };
+		CC06E5F323A3E13E001770D3 /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5F223A3E13E001770D3 /* PatrickHand-Regular.ttf */; };
+		CC06E5F523A3E27D001770D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */; };
+		FCDB5BC976DD81609C19A09D /* Pods_EconomicsProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8D408C06EFC08AA690039 /* Pods_EconomicsProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BA6F1CC621E5CB4BADE2A02 /* Pods-EconomicsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-EconomicsProjectTests/Pods-EconomicsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3620104CEB249DF5449EE4B9 /* Pods_EconomicsProject_EconomicsProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EconomicsProject_EconomicsProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA8D408C06EFC08AA690039 /* Pods_EconomicsProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EconomicsProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7922ADCC729DB6EEC1E211DD /* Pods-EconomicsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject.debug.xcconfig"; path = "Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF2DEB07B944843CECB796C /* Pods-EconomicsProject-EconomicsProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject-EconomicsProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		944CFF95D8442D6511DF3308 /* Pods_EconomicsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EconomicsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE27781307778E2D132C927 /* Pods-EconomicsProject-EconomicsProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject-EconomicsProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC06E5B023A3E0BF001770D3 /* EconomicsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconomicsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC06E5B323A3E0BF001770D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC06E5B523A3E0BF001770D3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CC06E5B723A3E0BF001770D3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		CC06E5B923A3E0BF001770D3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		CC06E5BB23A3E0BF001770D3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CC06E5BE23A3E0C0001770D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC06E5C023A3E0C0001770D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC06E5C323A3E0C0001770D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +60,15 @@
 		CC06E5D523A3E0C0001770D3 /* EconomicsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconomicsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC06E5D923A3E0C0001770D3 /* EconomicsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicsProjectUITests.swift; sourceTree = "<group>"; };
 		CC06E5DB23A3E0C0001770D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC06E5E723A3E109001770D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC06E5E923A3E12D001770D3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CC06E5EA23A3E12D001770D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC06E5EB23A3E12D001770D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC06E5EC23A3E12D001770D3 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CC06E5F223A3E13E001770D3 /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDBAD0D2804ADE426C8C315C /* Pods-EconomicsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject.release.xcconfig"; path = "Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject.release.xcconfig"; sourceTree = "<group>"; };
+		CDEAF1D49A8E76C414ED450A /* Pods-EconomicsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProjectTests.release.xcconfig"; path = "Target Support Files/Pods-EconomicsProjectTests/Pods-EconomicsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6AF3C76FAB43F91ECC32B2 /* Pods_EconomicsProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDB5BC976DD81609C19A09D /* Pods_EconomicsProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45064D4B4C5E2EC5EA2DA12D /* Pods_EconomicsProject_EconomicsProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8F6367A181860DAC37141C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7922ADCC729DB6EEC1E211DD /* Pods-EconomicsProject.debug.xcconfig */,
+				CDBAD0D2804ADE426C8C315C /* Pods-EconomicsProject.release.xcconfig */,
+				AEE27781307778E2D132C927 /* Pods-EconomicsProject-EconomicsProjectUITests.debug.xcconfig */,
+				8CF2DEB07B944843CECB796C /* Pods-EconomicsProject-EconomicsProjectUITests.release.xcconfig */,
+				0BA6F1CC621E5CB4BADE2A02 /* Pods-EconomicsProjectTests.debug.xcconfig */,
+				CDEAF1D49A8E76C414ED450A /* Pods-EconomicsProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC06E5A723A3E0BF001770D3 = {
 			isa = PBXGroup;
 			children = (
 				CC06E5B223A3E0BF001770D3 /* EconomicsProject */,
+				CC06E5F123A3E13E001770D3 /* Fonts */,
 				CC06E5CD23A3E0C0001770D3 /* EconomicsProjectTests */,
 				CC06E5D823A3E0C0001770D3 /* EconomicsProjectUITests */,
 				CC06E5B123A3E0BF001770D3 /* Products */,
+				9F8F6367A181860DAC37141C /* Pods */,
+				E41C0DBB75A8FCEA203A5F5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +138,15 @@
 		CC06E5B223A3E0BF001770D3 /* EconomicsProject */ = {
 			isa = PBXGroup;
 			children = (
-				CC06E5B323A3E0BF001770D3 /* AppDelegate.swift */,
-				CC06E5B523A3E0BF001770D3 /* GameScene.sks */,
-				CC06E5B723A3E0BF001770D3 /* Actions.sks */,
-				CC06E5B923A3E0BF001770D3 /* GameScene.swift */,
-				CC06E5BB23A3E0BF001770D3 /* GameViewController.swift */,
+				CC06E5E723A3E109001770D3 /* AppDelegate.swift */,
+				CC06E5EC23A3E12D001770D3 /* GameScene.swift */,
+				CC06E5E923A3E12D001770D3 /* GameViewController.swift */,
+				CC06E5EA23A3E12D001770D3 /* HomeViewController.swift */,
+				CC06E5EB23A3E12D001770D3 /* ViewController.swift */,
 				CC06E5BD23A3E0C0001770D3 /* Main.storyboard */,
 				CC06E5C023A3E0C0001770D3 /* Assets.xcassets */,
 				CC06E5C223A3E0C0001770D3 /* LaunchScreen.storyboard */,
+				CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */,
 				CC06E5C523A3E0C0001770D3 /* Info.plist */,
 			);
 			path = EconomicsProject;
@@ -134,6 +170,24 @@
 			path = EconomicsProjectUITests;
 			sourceTree = "<group>";
 		};
+		CC06E5F123A3E13E001770D3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC06E5F223A3E13E001770D3 /* PatrickHand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E41C0DBB75A8FCEA203A5F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944CFF95D8442D6511DF3308 /* Pods_EconomicsProject.framework */,
+				3620104CEB249DF5449EE4B9 /* Pods_EconomicsProject_EconomicsProjectUITests.framework */,
+				6AA8D408C06EFC08AA690039 /* Pods_EconomicsProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC06E5DE23A3E0C0001770D3 /* Build configuration list for PBXNativeTarget "EconomicsProject" */;
 			buildPhases = (
+				DE5F60F7E4BD0B47ECF171C9 /* [CP] Check Pods Manifest.lock */,
 				CC06E5AC23A3E0BF001770D3 /* Sources */,
 				CC06E5AD23A3E0BF001770D3 /* Frameworks */,
 				CC06E5AE23A3E0BF001770D3 /* Resources */,
+				E89B26291D401B7690E1FD39 /* [CP] Embed Pods Frameworks */,
+				579609B16AF3A5FD6348DC02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC06E5E123A3E0C0001770D3 /* Build configuration list for PBXNativeTarget "EconomicsProjectTests" */;
 			buildPhases = (
+				2764B0E4ADFB68B235041512 /* [CP] Check Pods Manifest.lock */,
 				CC06E5C623A3E0C0001770D3 /* Sources */,
 				CC06E5C723A3E0C0001770D3 /* Frameworks */,
 				CC06E5C823A3E0C0001770D3 /* Resources */,
@@ -176,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC06E5E423A3E0C0001770D3 /* Build configuration list for PBXNativeTarget "EconomicsProjectUITests" */;
 			buildPhases = (
+				2434C5F4B9BFE9CBBB6A85D7 /* [CP] Check Pods Manifest.lock */,
 				CC06E5D123A3E0C0001770D3 /* Sources */,
 				CC06E5D223A3E0C0001770D3 /* Frameworks */,
 				CC06E5D323A3E0C0001770D3 /* Resources */,
+				7DF3298E75BA07F68120F37D /* [CP] Embed Pods Frameworks */,
+				BEB82F87DB6A6E9562022812 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,10 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC06E5BF23A3E0C0001770D3 /* Main.storyboard in Resources */,
-				CC06E5B623A3E0BF001770D3 /* GameScene.sks in Resources */,
 				CC06E5C123A3E0C0001770D3 /* Assets.xcassets in Resources */,
 				CC06E5C423A3E0C0001770D3 /* LaunchScreen.storyboard in Resources */,
-				CC06E5B823A3E0BF001770D3 /* Actions.sks in Resources */,
+				CC06E5F323A3E13E001770D3 /* PatrickHand-Regular.ttf in Resources */,
+				CC06E5F523A3E27D001770D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +323,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2434C5F4B9BFE9CBBB6A85D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EconomicsProject-EconomicsProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2764B0E4ADFB68B235041512 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EconomicsProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579609B16AF3A5FD6348DC02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF3298E75BA07F68120F37D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB82F87DB6A6E9562022812 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject-EconomicsProjectUITests/Pods-EconomicsProject-EconomicsProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5F60F7E4BD0B47ECF171C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EconomicsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89B26291D401B7690E1FD39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC06E5AC23A3E0BF001770D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC06E5BA23A3E0BF001770D3 /* GameScene.swift in Sources */,
-				CC06E5BC23A3E0BF001770D3 /* GameViewController.swift in Sources */,
-				CC06E5B423A3E0BF001770D3 /* AppDelegate.swift in Sources */,
+				CC06E5F023A3E12D001770D3 /* GameScene.swift in Sources */,
+				CC06E5ED23A3E12D001770D3 /* GameViewController.swift in Sources */,
+				CC06E5E823A3E109001770D3 /* AppDelegate.swift in Sources */,
+				CC06E5EF23A3E12D001770D3 /* ViewController.swift in Sources */,
+				CC06E5EE23A3E12D001770D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +640,7 @@
 		};
 		CC06E5DF23A3E0C0001770D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7922ADCC729DB6EEC1E211DD /* Pods-EconomicsProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +659,7 @@
 		};
 		CC06E5E023A3E0C0001770D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBAD0D2804ADE426C8C315C /* Pods-EconomicsProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +678,7 @@
 		};
 		CC06E5E223A3E0C0001770D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA6F1CC621E5CB4BADE2A02 /* Pods-EconomicsProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +701,7 @@
 		};
 		CC06E5E323A3E0C0001770D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEAF1D49A8E76C414ED450A /* Pods-EconomicsProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +724,7 @@
 		};
 		CC06E5E523A3E0C0001770D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE27781307778E2D132C927 /* Pods-EconomicsProject-EconomicsProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +745,7 @@
 		};
 		CC06E5E623A3E0C0001770D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF2DEB07B944843CECB796C /* Pods-EconomicsProject-EconomicsProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

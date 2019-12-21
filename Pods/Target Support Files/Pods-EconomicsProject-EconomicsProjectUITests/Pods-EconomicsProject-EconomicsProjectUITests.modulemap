@@ -1,0 +1,6 @@
+framework module Pods_EconomicsProject_EconomicsProjectUITests {
+  umbrella header "Pods-EconomicsProject-EconomicsProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
