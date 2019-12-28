@@ -60,15 +60,12 @@ class HomeViewController: UIViewController {
             
         case 0:
             switch num {
-                
             // Level #1
             case 0: return "Person X wants to set up their business of producing and selling furniture"
             case 1: return "Primary Sector: this sector functions by obtaining materials from nature and converting it into raw materials."
             case 2: return "Secondary Sector: this sector uses the raw materials to manufacture goods or services."
             case 3: return "Tertiary sector: this is the retail sector, responsible for selling the good or service."
-                
             // Multiple Choice #1
-                
             default: return "Error Loading Content"
             }
         
@@ -161,16 +158,13 @@ class HomeViewController: UIViewController {
         
         DialogueView.isHidden = false
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
-    */
 
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
 }
