@@ -13,7 +13,7 @@ class HomeViewController: UIViewController {
     // Content Handler Variables
     var contentNum = 0
     var contentLevel = 0
-    let content : [Int] = [3, 5, 5, 3, 5, 10]
+    let content : [Int] = [3, 5, 5, 3, 5, 10, 7, 6, 25]
     
     // Instance Outlets
     @IBOutlet weak var ChangeNameTextFieldView: UITextField!
@@ -71,7 +71,6 @@ class HomeViewController: UIViewController {
         
         case 1:
             switch num {
-                
             // Level #2
             case 0: return "In order to begin trading, person X needs to begin production. What factors of production will they use?"
             case 1: return "Factors of Production: There are 4 factors which are used together to produce a given good or a service. They are Land, Labour, Capital, and Enterprise."
@@ -87,7 +86,6 @@ class HomeViewController: UIViewController {
         
         case 2:
             switch num {
-                
             // Level #3
             case 0: return "Profit = selling price - cost price"
             case 1: return "There is an ‘economic problem’ which is known as scarcity. Wants are unlimited but the resources are limited."
@@ -103,7 +101,6 @@ class HomeViewController: UIViewController {
             
         case 3:
             switch num {
-                
             // Level #4
             case 0: return "In order to be environmentally friendly/sustainable, you decide to install solar panels to power your furniture factories/production facilities."
             case 1: return "There are two main types of goods: Economic and Free goods. Economic goods have a price assigned to them. Thus, they have an Opportunity Cost. Every manufactured good is an economic good; for example, clothes, candy, shoes, pencils, and etc. Free goods are gifts of nature that you don’t have to pay for. For example, air, forests, etc."
@@ -117,7 +114,6 @@ class HomeViewController: UIViewController {
             
         case 4:
             switch num {
-                
             // Level #5
             case 0: return "Demand- the willingness and ability to buy a given good or service."
             case 1: return "For example, Charlie wants to buy a laptop worth $500, meaning he is willing. However, he does not have $500, therefore he is NOT  able to buy the good."
@@ -133,8 +129,7 @@ class HomeViewController: UIViewController {
             
         case 5:
             switch num {
-                
-            // Level #3
+            // Level #6
             case 0: return "Supply is the willingness and ability to sell a good or service."
             case 1: return "Factors affecting supply are supply shocks, taxes, subsidies, technology, and cost of factors of production. Supply shocks are unexpected events that affect the supply of a good or s service."
             case 2: return "For example, due to a war or a hurricane, chocolate cannot be exported by the Ivory Coast in Africa. Taxes in terms of supply are corporate taxes. Corporate taxes are aimed at a firm’s profits; a certain percentage of the firm’s profits are taken by the government."
@@ -149,6 +144,84 @@ class HomeViewController: UIViewController {
                 
             default: return "Error Loading Content"
             }
+            
+            case 6:
+            switch num {
+            // Level #7
+            case 0: return "Demand curve and functions- The concept of demand as we previously learnt follows a trend for most goods (normal goods). This can better be understood by representing the trend using a demand function."
+            case 1: return "A demand function is simply an equation that can be used to plot the demand curve. It is denoted as Quantity Demanded= A-bp."
+            case 2: return "You do not have to know the function of each component as this level as it is a higher-level economics topic."
+                
+            // Table #2
+            // Graph #1
+                
+            case 3: return "The downward-facing line represents demand. The y-axis represents the price, and the x-axis represents the quantity demanded."
+            case 4: return "I used the information in the table and inputted the values into the linear demand function (equation) to find the quantity demanded."
+            case 5: return "As can be noted, the information from the table has been converted into a demand curve."
+            case 6: return "Supply curve and functions- Just like demand, supply too follows a trend which can also be represented using a supply function."
+            case 7: return "A supply function is simply an equation that can be used to plot the supply curve. It is denoted as Quantity supplied=C+dP."
+                
+            // Table #3
+                
+            default: return "Error Loading Content"
+            }
+            
+        case 7:
+        switch num {
+        // Level #8
+        case 0: return "Equilibrium- equilibrium is the level where the quantity demanded equals quantity supplied."
+        case 1: return "It is the price and quantity at which the suppliers are willing and able to sell a given good or a service, and where the quantity and price at which the consumers are willing and able to buy the good."
+        case 2: return "There is no shortage or surplus at this level."
+            
+        // Graph #2
+            
+        case 3: return "Qe- Equilibrium Quantity, Pe- Equilibrium price"
+        case 4: return "The point where the demand and supply curve are intersecting represents equilibrium."
+        case 5: return "Equilibrium is achieved when the quantity demanded is equal to the quantity of supply. Therefore, to find equilibrium price, we have to simply equate the linear demand and supply functions. That is, Qs=Qd"
+        case 6: return "If the quantity demanded by the masses can be defined by this linear demand function Qt= 8-5P and the quantity supplied can be defined by linear supply function Qs= 2+3P, find the value of the equilibrium price."
+            
+        // Calculation #2
+            
+        default: return "Error Loading Content"
+        }
+            
+        case 8:
+        switch num {
+        // Level #9
+        case 0: return "Price Elasticity of demand- PED is the  degree by which demand changes. It is the responsiveness of demand to a change in price. There are four kinds of elasticities."
+        case 1: return "Price elastic- a change in price causes a more than proportionate change in demand."
+        case 2: return "Price inelastic- a change in price causes a less than proportionate change in demand. For example- cigarettes is price inelastic because it is an addictive good."
+        case 3: return "A change in its price will not change its demand significantly because it is an addictive good. Thus it is not easy for consumers to change their spending patterns."
+        case 4: return "Perfectly price elastic- this is a situation where a change in price causes an infinite change in demand. It is a hypothetical situation in economics."
+        case 5: return "Perfectly price inelastic- this is a situation when a change causes no change in demand. It is also a hypothetical situation."
+        case 6: return "Unit elasticity- when the change in price results in an equal change in demand."
+        case 7: return "Factors that affect elasticity:"
+        case 8: return "Addictive goods- For example- cigarettes is price inelastic because it is an addictive good. A change in its price will not change its demand significantly because it is an addictive good."
+        case 9: return "Thus it is not easy for consumers to change their spending patterns."
+        case 10: return "Time period- in the long term, the demand of all goods tends to become elastic as one can find substitutes"
+        case 11: return "Luxury or necessity- if a good is a necessity like water or food, its demand tends to be inelastic as a change in price will not cause a drastic change in demand as these goods are essential for living."
+        case 12: return "However, the demand of luxury goods will be more sensitive to price change."
+        
+        // Series of MCQs
+            
+        case 13: return "Price Elasticity of supply- The responsiveness of supply to a change in price. There are four kinds of elasticity:"
+        case 14: return "Price elastic- the change in price causes a more than proportionate change in supply. For example, an increase in price will cause a much greater increase in supply."
+        case 15: return "Price inelasticity- the change in price causes a less than proportionate change in supply."
+        case 16: return "Perfectly inelastic supply- a change in price causes no change in supply."
+        case 17: return "Perfectly elastic supply- change in price causes an infinite change in supply."
+        case 18: return "Unit elasticity- a change in price causes equal change in supply."
+        case 19: return "Factors affecting elasticity of supply:"
+        case 20: return "Mobility of resources- if the good is occupationally mobile and geographically mobile then the elasticity of supply will be high. Occupational mobility is a resource (Factors of Production)  which is capable of changing use."
+        case 21: return "For example, a piece of land can be used for the growth of of wheat or a building could be built on it. Thus its use can be changed. The geographical mobility is the ability to move the resource from one place to another."
+        case 22: return "For example, a piece of machinery can be used at one factory and then can be transported to another."
+        case 23: return "Time period- in the short run, supply is inelastic because it is difficult to find substitutes for a given good or service. However, in the long run, supply becomes elastic."
+        case 24: return "Spare capacity- the availability of stock allows producers to change supply easily if demand rises."
+        case 25: return "One of the lamps that your company takes a lot of time to produce because materials have to be sourced from several countries overseas. What is the PES of this good?"
+            
+        // MCQ
+            
+        default: return "Error Loading Content"
+        }
             
         default: "Mega-Error"
         }
