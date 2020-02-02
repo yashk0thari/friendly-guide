@@ -10,6 +10,11 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        
+//        view.endEditing(true)
+//    }
+    
     // Content Handler Variables
     var contentNum = 0
     var contentLevel = 0
@@ -25,9 +30,11 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var LogoutButtonView: UIButton!
     @IBOutlet weak var SettingsView: UIView!
     @IBOutlet weak var StoryButtonView: UIButton!
+    @IBOutlet weak var BookButtonView: UIButton!
     @IBOutlet weak var DialogueView: UIView!
     @IBOutlet weak var DialogueLabelView: UILabel!
-
+    @IBOutlet weak var DefinitionTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,10 +48,12 @@ class HomeViewController: UIViewController {
         ProgressButtonView.layer.cornerRadius = 5
         FeebackButtonView.layer.cornerRadius = 5
         LogoutButtonView.layer.cornerRadius = 5
+        DefinitionTextView.layer.cornerRadius = 5
         
         // Initally
         SettingsView.isHidden = true
         DialogueView.isHidden = true
+        DefinitionTextView.isHidden = true
         
         // DialougeView
         DialogueLabelView.textColor = UIColor.white
@@ -265,6 +274,9 @@ class HomeViewController: UIViewController {
     
     // Settings View
     @IBAction func SettingsButtonAction(_ sender: UIButton) {
+    
+        DialogueView.isHidden = true
+        DefinitionTextView.isHidden = true
         
         if SettingsView.isHidden == true {
             
@@ -284,6 +296,23 @@ class HomeViewController: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
+    
+    // Definitions View
+    @IBAction func BookButtonAction(_ sender: UIButton) {
+        
+        DialogueView.isHidden = true
+        SettingsView.isHidden = true
+        
+        if DefinitionTextView.isHidden == true {
+            
+            DefinitionTextView.isHidden = false
+        } else {
+            
+            DefinitionTextView.isHidden = true
+        }
+
+    }
+    
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
