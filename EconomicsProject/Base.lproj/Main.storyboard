@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WrJ-0u-5Pc">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WrJ-0u-5Pc">
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -39,6 +39,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5q1-uR-3sx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="137.94642857142856"/>
+        </scene>
+        <!--Lvl6VC-->
+        <scene sceneID="vMK-6D-YaF">
+            <objects>
+                <viewController id="Be8-vg-b3N" customClass="lvl6VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Omh-c3-7yx">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bON-If-9wJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rbh-9z-Ymv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqh-3z-sX4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="977"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="xbC-cB-fse">
@@ -259,6 +275,306 @@
             </objects>
             <point key="canvasLocation" x="1046.6517857142858" y="137.68115942028987"/>
         </scene>
+        <!--Lvl5VC-->
+        <scene sceneID="B5l-Hy-5qc">
+            <objects>
+                <viewController id="K3U-Gg-BUA" customClass="lvl5VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hwx-xJ-1yk">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mry-hS-6eL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8yI-8I-XHf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xF-I5-Co3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="977"/>
+        </scene>
+        <!--Lvl2VC-->
+        <scene sceneID="rem-oN-Y2z">
+            <objects>
+                <viewController id="vdI-mC-r0h" customClass="lvl2VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzV-PR-wND">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dKV-Mo-Va8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oum-WK-7l2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ckT-Oz-RFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="1706"/>
+        </scene>
+        <!--Lvl4VC-->
+        <scene sceneID="91j-fm-fgj">
+            <objects>
+                <viewController id="QHD-We-HPZ" customClass="lvl4VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iQc-HJ-Fdw">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UFr-XW-h0K"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xai-AB-CYe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3b-Il-Uj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="2470"/>
+        </scene>
+        <!--Lvl1VC-->
+        <scene sceneID="9ox-EG-ILv">
+            <objects>
+                <viewController id="iXO-Ee-NwN" customClass="lvl1VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHF-7i-3MZ" customClass="l">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="clM-Cq-C56"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qx4-Jo-HG0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wfq-mY-yKo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="1706"/>
+        </scene>
+        <!--Lvl7VC-->
+        <scene sceneID="myf-hF-sws">
+            <objects>
+                <viewController id="S6x-XB-snG" customClass="lvl7VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FNh-nR-yll">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="BEf-GT-Oen"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AJ4-53-n63"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IcY-bs-y35" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="2470"/>
+        </scene>
+        <!--Lvl3VC-->
+        <scene sceneID="XhZ-U2-4xB">
+            <objects>
+                <viewController id="HQv-4h-ijc" customClass="lvl3VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1NA-Cd-NE4">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lUt-os-CT6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wRd-UV-C9J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nF-rl-gdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="2470"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="zZJ-eN-HUF">
+            <objects>
+                <viewController id="4fF-z5-Cth" customClass="mapVC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KUX-5y-41H">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Ag2-wl-hza">
+                                <rect key="frame" x="-20" y="-30" width="936" height="474"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rle-jm-7mL">
+                                <rect key="frame" x="233" y="267" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="0Vb-fL-Ikp"/>
+                                    <constraint firstAttribute="height" constant="64" id="cW3-kD-VhG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="1" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iXO-Ee-NwN" kind="show" id="k9H-Oh-3qm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyN-Jp-ESk">
+                                <rect key="frame" x="519" y="289" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="8sk-sV-OjC"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="WbZ-mc-0iD"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="iu8-xU-pJr"/>
+                                    <constraint firstAttribute="height" constant="64" id="ygy-Vr-tWc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="2" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vdI-mC-r0h" kind="show" id="Yxu-7C-UIB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtz-Kb-p2Y">
+                                <rect key="frame" x="773" y="227" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="7Ax-oz-yzg"/>
+                                    <constraint firstAttribute="height" constant="64" id="GXQ-XK-cxY"/>
+                                    <constraint firstAttribute="width" constant="64" id="JQ5-TH-amP"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="R0q-Rp-wXv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="mdv-X6-pet"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="y2L-Bq-HX6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="3" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HQv-4h-ijc" kind="show" id="kcd-UQ-bre"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP4-Kt-V4c">
+                                <rect key="frame" x="773" y="65" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="31C-6k-FXw"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="7PR-Rp-mba"/>
+                                    <constraint firstAttribute="width" constant="64" id="URT-Tc-mqA"/>
+                                    <constraint firstAttribute="height" constant="64" id="Zi2-IT-eSv"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="hbI-aC-YYi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="wOo-zc-3Lo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="4" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QHD-We-HPZ" kind="show" id="qOh-gc-YR1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0g-VE-KVg">
+                                <rect key="frame" x="494" y="15" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="CtK-UB-LUf"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="cIQ-p1-rlW"/>
+                                    <constraint firstAttribute="height" constant="64" id="fGJ-u2-wW9"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="s64-VY-UJ4"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="tHP-8K-67k"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="tPp-aX-9jY"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="uTO-mb-CQu"/>
+                                    <constraint firstAttribute="width" constant="64" id="yjd-E1-kdm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="5" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="K3U-Gg-BUA" kind="show" id="p1q-oM-1Nh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziy-z8-3qu">
+                                <rect key="frame" x="359" y="80" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="02n-4R-1EX"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="1L3-aN-Q9O"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="HeA-BT-R7I"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="Owg-uw-kXO"/>
+                                    <constraint firstAttribute="width" constant="64" id="PMf-v1-cch"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="Tar-c8-oJH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="c0l-lR-DzM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="gqJ-YH-M7o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="6" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Be8-vg-b3N" kind="show" id="Wua-AR-zpn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVg-7d-5Fj">
+                                <rect key="frame" x="219" y="50" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="9C5-xS-zcb"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="MUz-Q7-Wyx"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="QfZ-a6-hOS"/>
+                                    <constraint firstAttribute="width" constant="64" id="RRO-JW-ecZ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="RvK-t7-3I3"/>
+                                    <constraint firstAttribute="height" constant="64" id="jLF-C7-r4k"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="kxW-YI-2t3"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="pc0-Wx-mlv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="7" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S6x-XB-snG" kind="show" id="5Y2-Ot-7be"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBW-EV-1j1">
+                                <rect key="frame" x="49" y="190" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="43H-5Z-HgB"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="6Mt-9A-Xbd"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="AkA-EC-Oi4"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="Sin-Qn-7Ta"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="V8M-O0-Naq"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="VcI-RQ-s0x"/>
+                                    <constraint firstAttribute="width" constant="64" id="cyQ-ih-Wfr"/>
+                                    <constraint firstAttribute="height" constant="64" id="fJa-Z2-pjm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="8" backgroundImage="star">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Urm-uq-kZ5" kind="show" id="pWR-Td-Mff"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gBW-EV-1j1" firstAttribute="leading" secondItem="87S-Tn-3Pt" secondAttribute="leading" constant="5" id="1wg-MW-lky"/>
+                            <constraint firstItem="87S-Tn-3Pt" firstAttribute="trailing" secondItem="vtz-Kb-p2Y" secondAttribute="trailing" constant="15" id="406-w9-ws6"/>
+                            <constraint firstItem="DP4-Kt-V4c" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="65" id="6Od-XB-6C7"/>
+                            <constraint firstItem="VVg-7d-5Fj" firstAttribute="leading" secondItem="87S-Tn-3Pt" secondAttribute="leading" constant="175" id="DBb-hu-GMb"/>
+                            <constraint firstItem="ziy-z8-3qu" firstAttribute="leading" secondItem="87S-Tn-3Pt" secondAttribute="leading" constant="315" id="KYv-w7-q05"/>
+                            <constraint firstItem="vtz-Kb-p2Y" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="227" id="R2x-Uo-F51"/>
+                            <constraint firstItem="Ag2-wl-hza" firstAttribute="centerY" secondItem="KUX-5y-41H" secondAttribute="centerY" id="ULg-GM-NWB"/>
+                            <constraint firstItem="gBW-EV-1j1" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="190" id="Uoq-Yh-Y9c"/>
+                            <constraint firstItem="VVg-7d-5Fj" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="50" id="bd0-Al-7RZ"/>
+                            <constraint firstItem="zyN-Jp-ESk" firstAttribute="leading" secondItem="rle-jm-7mL" secondAttribute="trailing" constant="222" id="fCW-Hy-zLg"/>
+                            <constraint firstItem="87S-Tn-3Pt" firstAttribute="bottom" secondItem="zyN-Jp-ESk" secondAttribute="bottom" constant="40" id="irL-Oe-BOA"/>
+                            <constraint firstItem="rle-jm-7mL" firstAttribute="leading" secondItem="87S-Tn-3Pt" secondAttribute="leading" constant="189" id="n2d-eU-Q7r"/>
+                            <constraint firstItem="Ag2-wl-hza" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="-30" id="oou-gX-sWZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ag2-wl-hza" secondAttribute="trailing" constant="-20" id="opZ-l9-edZ"/>
+                            <constraint firstItem="DP4-Kt-V4c" firstAttribute="leading" secondItem="B0g-VE-KVg" secondAttribute="trailing" constant="215" id="ske-LM-aab"/>
+                            <constraint firstItem="B0g-VE-KVg" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="15" id="t8i-ob-jYf"/>
+                            <constraint firstItem="ziy-z8-3qu" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="80" id="tKo-JV-hAe"/>
+                            <constraint firstItem="Ag2-wl-hza" firstAttribute="centerX" secondItem="KUX-5y-41H" secondAttribute="centerX" id="y5x-0s-FEo"/>
+                            <constraint firstItem="rle-jm-7mL" firstAttribute="top" secondItem="87S-Tn-3Pt" secondAttribute="top" constant="267" id="yV5-9G-xLJ"/>
+                            <constraint firstItem="87S-Tn-3Pt" firstAttribute="trailing" secondItem="DP4-Kt-V4c" secondAttribute="trailing" constant="15" id="zCr-2K-RY4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="87S-Tn-3Pt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UhG-Ut-Amh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="977"/>
+        </scene>
+        <!--Lvl8VC-->
+        <scene sceneID="eeE-3G-hvL">
+            <objects>
+                <viewController id="Urm-uq-kZ5" customClass="lvl8VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yeH-pI-Q0m">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1tz-Vd-b5U"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ddE-kf-pfl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aaK-VC-hr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="1706"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Uo-ff-KKf">
             <objects>
@@ -290,6 +606,8 @@
         <image name="SettingsBackground" width="450" height="300"/>
         <image name="Snapchat" width="42" height="42"/>
         <image name="Volume 9.00.45 AM" width="30" height="25"/>
+        <image name="map" width="2210" height="1333"/>
         <image name="message" width="52" height="52"/>
+        <image name="star" width="800" height="800"/>
     </resources>
 </document>

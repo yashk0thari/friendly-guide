@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA09B9223EA948100765A04 /* lvl1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9123EA948100765A04 /* lvl1VC.swift */; };
+		1CA09B9423EA94A800765A04 /* lvl2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9323EA94A800765A04 /* lvl2VC.swift */; };
+		1CA09B9623EA94D200765A04 /* lvl3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9523EA94D200765A04 /* lvl3VC.swift */; };
+		1CA09B9823EA94EA00765A04 /* lvl4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9723EA94EA00765A04 /* lvl4VC.swift */; };
+		1CA09B9A23EA94F500765A04 /* lvl5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9923EA94F500765A04 /* lvl5VC.swift */; };
+		1CA09B9C23EA950100765A04 /* lvl6VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9B23EA950100765A04 /* lvl6VC.swift */; };
+		1CA09B9E23EA950C00765A04 /* lvl7VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9D23EA950C00765A04 /* lvl7VC.swift */; };
+		1CA09BA023EA951700765A04 /* lvl8VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09B9F23EA951700765A04 /* lvl8VC.swift */; };
+		1CA09BA223EA95BF00765A04 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA09BA123EA95BF00765A04 /* mapVC.swift */; };
 		45064D4B4C5E2EC5EA2DA12D /* Pods_EconomicsProject_EconomicsProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3620104CEB249DF5449EE4B9 /* Pods_EconomicsProject_EconomicsProjectUITests.framework */; };
 		AE6AF3C76FAB43F91ECC32B2 /* Pods_EconomicsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944CFF95D8442D6511DF3308 /* Pods_EconomicsProject.framework */; };
 		CC06E5BF23A3E0C0001770D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5BD23A3E0C0001770D3 /* Main.storyboard */; };
@@ -43,6 +52,15 @@
 
 /* Begin PBXFileReference section */
 		0BA6F1CC621E5CB4BADE2A02 /* Pods-EconomicsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-EconomicsProjectTests/Pods-EconomicsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA09B9123EA948100765A04 /* lvl1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl1VC.swift; sourceTree = "<group>"; };
+		1CA09B9323EA94A800765A04 /* lvl2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl2VC.swift; sourceTree = "<group>"; };
+		1CA09B9523EA94D200765A04 /* lvl3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl3VC.swift; sourceTree = "<group>"; };
+		1CA09B9723EA94EA00765A04 /* lvl4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl4VC.swift; sourceTree = "<group>"; };
+		1CA09B9923EA94F500765A04 /* lvl5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl5VC.swift; sourceTree = "<group>"; };
+		1CA09B9B23EA950100765A04 /* lvl6VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl6VC.swift; sourceTree = "<group>"; };
+		1CA09B9D23EA950C00765A04 /* lvl7VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl7VC.swift; sourceTree = "<group>"; };
+		1CA09B9F23EA951700765A04 /* lvl8VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvl8VC.swift; sourceTree = "<group>"; };
+		1CA09BA123EA95BF00765A04 /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 		3620104CEB249DF5449EE4B9 /* Pods_EconomicsProject_EconomicsProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EconomicsProject_EconomicsProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA8D408C06EFC08AA690039 /* Pods_EconomicsProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EconomicsProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922ADCC729DB6EEC1E211DD /* Pods-EconomicsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject.debug.xcconfig"; path = "Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +166,15 @@
 				CC06E5C223A3E0C0001770D3 /* LaunchScreen.storyboard */,
 				CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */,
 				CC06E5C523A3E0C0001770D3 /* Info.plist */,
+				1CA09B9123EA948100765A04 /* lvl1VC.swift */,
+				1CA09B9323EA94A800765A04 /* lvl2VC.swift */,
+				1CA09B9523EA94D200765A04 /* lvl3VC.swift */,
+				1CA09B9723EA94EA00765A04 /* lvl4VC.swift */,
+				1CA09B9923EA94F500765A04 /* lvl5VC.swift */,
+				1CA09B9B23EA950100765A04 /* lvl6VC.swift */,
+				1CA09B9D23EA950C00765A04 /* lvl7VC.swift */,
+				1CA09B9F23EA951700765A04 /* lvl8VC.swift */,
+				1CA09BA123EA95BF00765A04 /* mapVC.swift */,
 			);
 			path = EconomicsProject;
 			sourceTree = "<group>";
@@ -465,11 +492,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA09B9423EA94A800765A04 /* lvl2VC.swift in Sources */,
+				1CA09B9623EA94D200765A04 /* lvl3VC.swift in Sources */,
 				CC06E5F023A3E12D001770D3 /* GameScene.swift in Sources */,
+				1CA09B9223EA948100765A04 /* lvl1VC.swift in Sources */,
+				1CA09BA023EA951700765A04 /* lvl8VC.swift in Sources */,
 				CC06E5ED23A3E12D001770D3 /* GameViewController.swift in Sources */,
 				CC06E5E823A3E109001770D3 /* AppDelegate.swift in Sources */,
+				1CA09B9C23EA950100765A04 /* lvl6VC.swift in Sources */,
+				1CA09B9823EA94EA00765A04 /* lvl4VC.swift in Sources */,
+				1CA09BA223EA95BF00765A04 /* mapVC.swift in Sources */,
 				CC06E5EF23A3E12D001770D3 /* ViewController.swift in Sources */,
+				1CA09B9E23EA950C00765A04 /* lvl7VC.swift in Sources */,
 				CC06E5EE23A3E12D001770D3 /* HomeViewController.swift in Sources */,
+				1CA09B9A23EA94F500765A04 /* lvl5VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
