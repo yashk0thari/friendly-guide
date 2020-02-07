@@ -31,7 +31,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var SettingsView: UIView!
     @IBOutlet weak var StoryButtonView: UIButton!
     @IBOutlet weak var BookButtonView: UIButton!
-    @IBOutlet weak var DialogueView: UIView!
     @IBOutlet weak var DialogueLabelView: UILabel!
     @IBOutlet weak var DefinitionTextView: UITextView!
     
@@ -52,7 +51,6 @@ class HomeViewController: UIViewController {
         
         // Initally
         SettingsView.isHidden = true
-        DialogueView.isHidden = true
         DefinitionTextView.isHidden = true
         
         // DialougeView
@@ -275,7 +273,6 @@ class HomeViewController: UIViewController {
     // Settings View
     @IBAction func SettingsButtonAction(_ sender: UIButton) {
     
-        DialogueView.isHidden = true
         DefinitionTextView.isHidden = true
         
         if SettingsView.isHidden == true {
@@ -290,8 +287,8 @@ class HomeViewController: UIViewController {
     // Dialogue View
     @IBAction func StoryButtonAction(_ sender: Any) {
         
-        DialogueView.isHidden = false
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
@@ -300,7 +297,6 @@ class HomeViewController: UIViewController {
     // Definitions View
     @IBAction func BookButtonAction(_ sender: UIButton) {
         
-        DialogueView.isHidden = true
         SettingsView.isHidden = true
         
         if DefinitionTextView.isHidden == true {

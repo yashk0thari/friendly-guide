@@ -67,7 +67,7 @@ class ViewController: UIViewController, GIDSignInDelegate {
           }
           // User is signed in
             print("USER SIGNED IN!!")
-            self.performSegue(withIdentifier: "loginToHome", sender: self)
+            self.performSegue(withIdentifier: "loginToMap", sender: self)
         }
     }
     override func viewWillAppear(_ animated: Bool) {

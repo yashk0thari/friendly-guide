@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WrJ-0u-5Pc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WrJ-0u-5Pc">
     <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,44 +33,12 @@
                     <navigationItem key="navigationItem" id="viS-FP-Ykw"/>
                     <connections>
                         <outlet property="signInButton" destination="vxS-oH-sxJ" id="EdS-LJ-I6l"/>
-                        <segue destination="PjZ-YH-cNw" kind="show" identifier="loginToHome" id="mxz-08-K5k"/>
+                        <segue destination="4fF-z5-Cth" kind="show" identifier="loginToMap" id="rqE-Sg-oX9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5q1-uR-3sx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="137.94642857142856"/>
-        </scene>
-        <!--Lvl6VC-->
-        <scene sceneID="vMK-6D-YaF">
-            <objects>
-                <viewController id="Be8-vg-b3N" customClass="lvl6VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Omh-c3-7yx">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="bON-If-9wJ"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="rbh-9z-Ymv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cqh-3z-sX4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3" y="977"/>
-        </scene>
-        <!--Game View Controller-->
-        <scene sceneID="xbC-cB-fse">
-            <objects>
-                <viewController id="Zwi-RT-b0g" customClass="GameViewController" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2fg-Yl-RFn" customClass="SKView">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="5SL-eD-xxy"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="HKv-sN-dee"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fr6-rf-eBg" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1986.9565217391305" y="137.94642857142856"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="LUG-gW-4Oe">
@@ -80,6 +48,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATa-eI-qCE" userLabel="Back">
+                                <rect key="frame" x="0.0" y="0.0" width="448" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="BackButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="d6y-XF-jNJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-MU-8np" userLabel="Forward">
+                                <rect key="frame" x="448" y="0.0" width="448" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="ForwardButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="btf-QQ-Hks"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rIZ-bx-dkN" userLabel="SettingsView">
                                 <rect key="frame" x="223" y="57" width="450" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -217,35 +199,22 @@
                                     <action selector="BookButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="2Mk-rk-rQE"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOD-xp-VZy" userLabel="DialogueView">
-                                <rect key="frame" x="546" y="0.0" width="350" height="414"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90m-0W-N6P">
+                                <rect key="frame" x="98" y="20" width="700" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90m-0W-N6P">
-                                        <rect key="frame" x="0.0" y="50" width="350" height="364"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATa-eI-qCE">
-                                        <rect key="frame" x="10" y="7" width="47" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Group-1"/>
-                                        <connections>
-                                            <action selector="BackButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="d6y-XF-jNJ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-MU-8np">
-                                        <rect key="frame" x="57" y="7" width="47" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Group-2"/>
-                                        <connections>
-                                            <action selector="ForwardButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="btf-QQ-Hks"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNq-UF-Wvy" userLabel="OptionsView">
+                                <rect key="frame" x="100" y="138" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLO-nv-fgv" userLabel="ImageView">
+                                <rect key="frame" x="546" y="138" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
@@ -259,7 +228,6 @@
                         <outlet property="ChangeNameTextFieldView" destination="mkm-ic-3dh" id="3Zg-5y-Ucx"/>
                         <outlet property="DefinitionTextView" destination="xdl-Xb-DcF" id="f6G-Xo-Tsp"/>
                         <outlet property="DialogueLabelView" destination="90m-0W-N6P" id="aeN-3K-jzs"/>
-                        <outlet property="DialogueView" destination="IOD-xp-VZy" id="Zzb-1B-QwG"/>
                         <outlet property="FeebackButtonView" destination="i65-31-cLD" id="Ecv-gY-mib"/>
                         <outlet property="HTPButtonView" destination="7Pv-7G-5Vh" id="8g9-6i-RV1"/>
                         <outlet property="LogoutButtonView" destination="KZu-Op-5s8" id="V3d-lZ-3ed"/>
@@ -268,108 +236,11 @@
                         <outlet property="StoryButtonView" destination="Knm-EI-rHf" id="qV3-SH-saf"/>
                         <outlet property="musicSwitch" destination="LJI-io-LsR" id="7YX-3v-3lh"/>
                         <outlet property="soundSwitch" destination="X3l-gv-hUm" id="qkg-dW-bnR"/>
-                        <segue destination="Zwi-RT-b0g" kind="show" id="1Qr-eD-k02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iA3-X3-jtH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1046.6517857142858" y="137.68115942028987"/>
-        </scene>
-        <!--Lvl5VC-->
-        <scene sceneID="B5l-Hy-5qc">
-            <objects>
-                <viewController id="K3U-Gg-BUA" customClass="lvl5VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hwx-xJ-1yk">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="mry-hS-6eL"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8yI-8I-XHf"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5xF-I5-Co3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1298" y="977"/>
-        </scene>
-        <!--Lvl2VC-->
-        <scene sceneID="rem-oN-Y2z">
-            <objects>
-                <viewController id="vdI-mC-r0h" customClass="lvl2VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lzV-PR-wND">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="dKV-Mo-Va8"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="oum-WK-7l2"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ckT-Oz-RFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1298" y="1706"/>
-        </scene>
-        <!--Lvl4VC-->
-        <scene sceneID="91j-fm-fgj">
-            <objects>
-                <viewController id="QHD-We-HPZ" customClass="lvl4VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iQc-HJ-Fdw">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="UFr-XW-h0K"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xai-AB-CYe"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F3b-Il-Uj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1298" y="2470"/>
-        </scene>
-        <!--Lvl1VC-->
-        <scene sceneID="9ox-EG-ILv">
-            <objects>
-                <viewController id="iXO-Ee-NwN" customClass="lvl1VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dHF-7i-3MZ" customClass="l">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="clM-Cq-C56"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Qx4-Jo-HG0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wfq-mY-yKo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3" y="1706"/>
-        </scene>
-        <!--Lvl7VC-->
-        <scene sceneID="myf-hF-sws">
-            <objects>
-                <viewController id="S6x-XB-snG" customClass="lvl7VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FNh-nR-yll">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="BEf-GT-Oen"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="AJ4-53-n63"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IcY-bs-y35" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3" y="2470"/>
-        </scene>
-        <!--Lvl3VC-->
-        <scene sceneID="XhZ-U2-4xB">
-            <objects>
-                <viewController id="HQv-4h-ijc" customClass="lvl3VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1NA-Cd-NE4">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="lUt-os-CT6"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wRd-UV-C9J"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2nF-rl-gdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="644" y="2470"/>
+            <point key="canvasLocation" x="1751" y="138"/>
         </scene>
         <!--MapVC-->
         <scene sceneID="zZJ-eN-HUF">
@@ -380,10 +251,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Ag2-wl-hza">
-                                <rect key="frame" x="-20" y="-30" width="936" height="474"/>
+                                <rect key="frame" x="-20" y="14" width="936" height="386"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rle-jm-7mL">
-                                <rect key="frame" x="233" y="267" width="64" height="64"/>
+                                <rect key="frame" x="233" y="311" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="0Vb-fL-Ikp"/>
                                     <constraint firstAttribute="height" constant="64" id="cW3-kD-VhG"/>
@@ -393,7 +264,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iXO-Ee-NwN" kind="show" id="k9H-Oh-3qm"/>
+                                    <action selector="Level1ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="mGq-1x-mNb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyN-Jp-ESk">
@@ -409,11 +280,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vdI-mC-r0h" kind="show" id="Yxu-7C-UIB"/>
+                                    <action selector="Level2ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="y7Z-rn-g1L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtz-Kb-p2Y">
-                                <rect key="frame" x="773" y="227" width="64" height="64"/>
+                                <rect key="frame" x="773" y="271" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="7Ax-oz-yzg"/>
                                     <constraint firstAttribute="height" constant="64" id="GXQ-XK-cxY"/>
@@ -427,11 +298,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HQv-4h-ijc" kind="show" id="kcd-UQ-bre"/>
+                                    <action selector="Level3ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="2jA-IX-LRH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP4-Kt-V4c">
-                                <rect key="frame" x="773" y="65" width="64" height="64"/>
+                                <rect key="frame" x="773" y="109" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="31C-6k-FXw"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="7PR-Rp-mba"/>
@@ -445,11 +316,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QHD-We-HPZ" kind="show" id="qOh-gc-YR1"/>
+                                    <action selector="Level4ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="uKU-Ul-M91"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0g-VE-KVg">
-                                <rect key="frame" x="494" y="15" width="64" height="64"/>
+                                <rect key="frame" x="494" y="59" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="CtK-UB-LUf"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="cIQ-p1-rlW"/>
@@ -465,11 +336,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="K3U-Gg-BUA" kind="show" id="p1q-oM-1Nh"/>
+                                    <action selector="Level5ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="gQE-8n-BCj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziy-z8-3qu">
-                                <rect key="frame" x="359" y="80" width="64" height="64"/>
+                                <rect key="frame" x="359" y="124" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="02n-4R-1EX"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="1L3-aN-Q9O"/>
@@ -485,11 +356,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Be8-vg-b3N" kind="show" id="Wua-AR-zpn"/>
+                                    <action selector="Level6ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="XMB-Rg-it8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVg-7d-5Fj">
-                                <rect key="frame" x="219" y="50" width="64" height="64"/>
+                                <rect key="frame" x="219" y="94" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="9C5-xS-zcb"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="MUz-Q7-Wyx"/>
@@ -505,11 +376,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S6x-XB-snG" kind="show" id="5Y2-Ot-7be"/>
+                                    <action selector="Level7ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="rTM-In-n6L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBW-EV-1j1">
-                                <rect key="frame" x="49" y="190" width="64" height="64"/>
+                                <rect key="frame" x="49" y="234" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="43H-5Z-HgB"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="64" id="6Mt-9A-Xbd"/>
@@ -525,7 +396,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Urm-uq-kZ5" kind="show" id="pWR-Td-Mff"/>
+                                    <action selector="Level8ButtonAction:" destination="4fF-z5-Cth" eventType="touchUpInside" id="fMP-pt-siB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -554,26 +425,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="87S-Tn-3Pt"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XHs-VG-mnP"/>
+                    <connections>
+                        <segue destination="PjZ-YH-cNw" kind="show" identifier="mapToHome" id="iMB-gE-eXd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UhG-Ut-Amh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="644" y="977"/>
-        </scene>
-        <!--Lvl8VC-->
-        <scene sceneID="eeE-3G-hvL">
-            <objects>
-                <viewController id="Urm-uq-kZ5" customClass="lvl8VC" customModule="EconomicsProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yeH-pI-Q0m">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="1tz-Vd-b5U"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ddE-kf-pfl"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aaK-VC-hr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="644" y="1706"/>
+            <point key="canvasLocation" x="956" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Uo-ff-KKf">
@@ -598,8 +457,6 @@
         <image name="Book" width="52" height="52"/>
         <image name="Google-+" width="42" height="42"/>
         <image name="Group" width="42" height="42"/>
-        <image name="Group-1" width="47" height="35"/>
-        <image name="Group-2" width="47" height="35"/>
         <image name="Instagram" width="42" height="42"/>
         <image name="Music 9.00.45 AM" width="25" height="30"/>
         <image name="Settings" width="52" height="52"/>
