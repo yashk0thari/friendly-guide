@@ -210,11 +210,51 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNq-UF-Wvy" userLabel="OptionsView">
                                 <rect key="frame" x="100" y="138" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU8-ZA-At4" userLabel="Option 1">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="Option1ButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="4jC-xd-9zs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-Qy-Smx" userLabel="Option 3">
+                                        <rect key="frame" x="150" y="0.0" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="Option3ButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="Tx9-vX-8LU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTb-P2-ocs" userLabel="Option 4">
+                                        <rect key="frame" x="150" y="150" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="Option4ButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="uTt-01-xia"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-Nk-Pae" userLabel="Option 2">
+                                        <rect key="frame" x="0.0" y="149" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="Option2ButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="w8K-6r-hyS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLO-nv-fgv" userLabel="ImageView">
                                 <rect key="frame" x="546" y="138" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aci-UR-moZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
@@ -230,7 +270,13 @@
                         <outlet property="DialogueLabelView" destination="90m-0W-N6P" id="aeN-3K-jzs"/>
                         <outlet property="FeebackButtonView" destination="i65-31-cLD" id="Ecv-gY-mib"/>
                         <outlet property="HTPButtonView" destination="7Pv-7G-5Vh" id="8g9-6i-RV1"/>
+                        <outlet property="ImageView" destination="eLO-nv-fgv" id="Nud-FM-emS"/>
                         <outlet property="LogoutButtonView" destination="KZu-Op-5s8" id="V3d-lZ-3ed"/>
+                        <outlet property="Option1ButtonView" destination="eU8-ZA-At4" id="wtA-Cz-Hys"/>
+                        <outlet property="Option2ButtonView" destination="XDi-Nk-Pae" id="23V-Vt-QEW"/>
+                        <outlet property="Option3ButtonView" destination="OEe-Qy-Smx" id="XaE-Jb-naG"/>
+                        <outlet property="Option4ButtonView" destination="xTb-P2-ocs" id="TSZ-S3-hQO"/>
+                        <outlet property="OptionsView" destination="aNq-UF-Wvy" id="uCZ-YR-vLh"/>
                         <outlet property="ProgressButtonView" destination="NiM-JJ-DvX" id="yf3-WS-8ZJ"/>
                         <outlet property="SettingsView" destination="rIZ-bx-dkN" id="aNM-Nf-CQU"/>
                         <outlet property="StoryButtonView" destination="Knm-EI-rHf" id="qV3-SH-saf"/>
@@ -240,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iA3-X3-jtH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1751" y="138"/>
+            <point key="canvasLocation" x="1750.4464285714284" y="137.68115942028987"/>
         </scene>
         <!--MapVC-->
         <scene sceneID="zZJ-eN-HUF">

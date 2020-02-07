@@ -10,15 +10,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        
-//        view.endEditing(true)
-//    }
-    
     // Content Handler Variables
     var contentNum = 0
-    var contentLevel = 0
-    let content : [Int] = [3, 5, 5, 3, 5, 10, 7, 6, 25]
+    let content : [Int] = [4, 6, 5, 3, 5, 10, 7, 6, 25]
     
     // Instance Outlets
     @IBOutlet weak var ChangeNameTextFieldView: UITextField!
@@ -33,6 +27,13 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var BookButtonView: UIButton!
     @IBOutlet weak var DialogueLabelView: UILabel!
     @IBOutlet weak var DefinitionTextView: UITextView!
+    @IBOutlet weak var OptionsView: UIView!
+    @IBOutlet weak var ImageView: UIView!
+    @IBOutlet weak var Option1ButtonView: UIButton!
+    @IBOutlet weak var Option2ButtonView: UIButton!
+    @IBOutlet weak var Option3ButtonView: UIButton!
+    @IBOutlet weak var Option4ButtonView: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,12 +53,16 @@ class HomeViewController: UIViewController {
         // Initally
         SettingsView.isHidden = true
         DefinitionTextView.isHidden = true
+        OptionsView.isHidden = true
+        ImageView.isHidden = true
+        DialogueLabelView.isHidden = true
+        level -= 1
         
         // DialougeView
         DialogueLabelView.textColor = UIColor.white
         
         // DialogueRenderer
-        DialogueLabelView.text = content(num: 0, level: 0)
+        DialogueLabelView.text = content(num: 0, level: level)
     }
     
     // Content Function
@@ -72,6 +77,11 @@ class HomeViewController: UIViewController {
             case 1: return "Primary Sector: this sector functions by obtaining materials from nature and converting it into raw materials."
             case 2: return "Secondary Sector: this sector uses the raw materials to manufacture goods or services."
             case 3: return "Tertiary sector: this is the retail sector, responsible for selling the good or service."
+                
+            case 4:
+                DialogueLabelView.text = content(num: 3, level: level)
+                OptionsView.isHidden = false
+                
             // Multiple Choice #1
             default: return "Error Loading Content"
             }
@@ -85,6 +95,11 @@ class HomeViewController: UIViewController {
             case 3: return "Labour is human resources, eg. workers"
             case 4: return "Capital is manmade resources, eg. machinery"
             case 5: return "Enterprise is the risk-taking ability and the ability to combine the other three factors of production to produce goods or services"
+                
+            case 6:
+                print("Lol: \(content(num: 5, level: level))")
+                DialogueLabelView.text = content(num: 5, level: level)
+                OptionsView.isHidden = false
                 
             // Multiple Choice #2
                 
@@ -239,36 +254,41 @@ class HomeViewController: UIViewController {
     // Forward Button View
     @IBAction func ForwardButtonAction(_ sender: UIButton) {
         
-        if content(num: contentNum, level: contentLevel) != "Error Loading Content" {
-            
-            DialogueLabelView.text = content(num: contentNum, level: contentLevel)
-            contentNum += 1
-        } else {
-            
-            contentNum = 0
-            contentLevel += 1
-            DialogueLabelView.text = content(num: contentNum, level: contentLevel)
-        }
+        DialogueLabelView.text = content(num: contentNum, level: level)
+        contentNum += 1
     }
     
     // Backward Button View
     @IBAction func BackButtonAction(_ sender: UIButton) {
             
             if contentNum > 0 {
-                
+
                 contentNum -= 1
-                DialogueLabelView.text = content(num: contentNum, level: contentLevel)
-            } else {
-                
-                if contentLevel > 0 {
-                    
-                    contentLevel -= 1
-                    contentNum = content[contentLevel]
-                    DialogueLabelView.text = content(num: contentNum, level: contentLevel)
-                }
+                DialogueLabelView.text = content(num: contentNum, level: level)
             }
-    
     }
+    
+    // Options Handler
+    @IBAction func Option1ButtonAction(_ sender: UIButton) {
+     
+        
+    }
+    
+    @IBAction func Option2ButtonAction(_ sender: UIButton) {
+     
+        
+    }
+    
+    @IBAction func Option3ButtonAction(_ sender: UIButton) {
+     
+        
+    }
+    
+    @IBAction func Option4ButtonAction(_ sender: UIButton) {
+     
+        
+    }
+    
     
     // Settings View
     @IBAction func SettingsButtonAction(_ sender: UIButton) {
@@ -287,6 +307,7 @@ class HomeViewController: UIViewController {
     // Dialogue View
     @IBAction func StoryButtonAction(_ sender: Any) {
         
+        DialogueLabelView.isHidden = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
