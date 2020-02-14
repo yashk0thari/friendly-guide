@@ -11,7 +11,7 @@ import Firebase
 import GoogleSignIn
 
 // Universal Variables
-var level = 1
+var level = 0
 
 extension UIViewController {
     

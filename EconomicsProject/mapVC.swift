@@ -9,11 +9,48 @@
 import UIKit
 
 class mapVC: UIViewController {
+    
+    @IBOutlet weak var Level1ButtonView: UIButton!
+    @IBOutlet weak var Level2ButtonView: UIButton!
+    @IBOutlet weak var Level3ButtonView: UIButton!
+    @IBOutlet weak var Level4ButtonView: UIButton!
+    @IBOutlet weak var Level5ButtonView: UIButton!
+    @IBOutlet weak var Level6ButtonView: UIButton!
+    @IBOutlet weak var Level7ButtonView: UIButton!
+    @IBOutlet weak var Level8ButtonView: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // initially
+        if level == 0 {
+            Level2ButtonView.isHidden = true
+            Level3ButtonView.isHidden = true
+            Level4ButtonView.isHidden = true
+            Level5ButtonView.isHidden = true
+            Level6ButtonView.isHidden = true
+            Level7ButtonView.isHidden = true
+            Level8ButtonView.isHidden = true
+            
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        print(level)
+        
+        switch level {
+        case 2: Level2ButtonView.isHidden = false
+        case 3: Level3ButtonView.isHidden = false
+        case 4: Level4ButtonView.isHidden = false
+        case 5: Level5ButtonView.isHidden = false
+        case 6: Level6ButtonView.isHidden = false
+        case 7: Level7ButtonView.isHidden = false
+        case 8: Level8ButtonView.isHidden = false
+            
+        default: Level1ButtonView.isHidden = false
+        }
     }
     
     // Level Segue

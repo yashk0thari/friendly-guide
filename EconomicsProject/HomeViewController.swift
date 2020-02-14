@@ -269,22 +269,23 @@ class HomeViewController: UIViewController {
     // Options Handler
     @IBAction func Option1ButtonAction(_ sender: UIButton) {
      
-        
+        level += 2
+        _ = navigationController?.popViewController(animated: true)
     }
     
     @IBAction func Option2ButtonAction(_ sender: UIButton) {
      
-        
+        level += 1
     }
     
     @IBAction func Option3ButtonAction(_ sender: UIButton) {
      
-        
+        level += 1
     }
     
     @IBAction func Option4ButtonAction(_ sender: UIButton) {
      
-        
+        level += 1
     }
     
     

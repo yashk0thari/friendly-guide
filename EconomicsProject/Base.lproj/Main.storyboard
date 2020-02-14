@@ -473,6 +473,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="XHs-VG-mnP"/>
                     <connections>
+                        <outlet property="Level1ButtonView" destination="rle-jm-7mL" id="Pi9-6y-2bA"/>
+                        <outlet property="Level2ButtonView" destination="zyN-Jp-ESk" id="SpB-Nc-zV0"/>
+                        <outlet property="Level3ButtonView" destination="vtz-Kb-p2Y" id="bLt-1O-G49"/>
+                        <outlet property="Level4ButtonView" destination="DP4-Kt-V4c" id="56t-87-eA1"/>
+                        <outlet property="Level5ButtonView" destination="B0g-VE-KVg" id="Ppe-a9-qlr"/>
+                        <outlet property="Level6ButtonView" destination="ziy-z8-3qu" id="chX-Fm-l1e"/>
+                        <outlet property="Level7ButtonView" destination="VVg-7d-5Fj" id="rM3-3h-Emm"/>
+                        <outlet property="Level8ButtonView" destination="gBW-EV-1j1" id="SCq-FW-zpw"/>
                         <segue destination="PjZ-YH-cNw" kind="show" identifier="mapToHome" id="iMB-gE-eXd"/>
                     </connections>
                 </viewController>
