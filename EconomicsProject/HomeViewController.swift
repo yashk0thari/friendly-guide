@@ -13,6 +13,33 @@ class HomeViewController: UIViewController {
     // Content Handler Variables
     var contentNum = 0
     let content : [Int] = [0, 0, 0, 0, 1, 4, 7, 6, 25]
+    let option1 : [String] = ["Primary sector",
+                              "Machinery, Workers, Wood, and entrepreneurial skills",
+                              "A",
+                              "Sunlight",
+                              "Substitute and demand falls",
+                              "willingness, ability"]
+    
+    let option2 : [String] = ["Secondary sector",
+                              "Workers and Machinery",
+                              "B",
+                              "Solar panels",
+                              "Substitute and demand rises",
+                              "willingness, willingness"]
+    
+    let option3 : [String] = ["Tertiary sector",
+                              "Wood or Workers",
+                              "C",
+                              "Wires and cords",
+                              "Complement and demand falls",
+                              "ability, willingness"]
+    
+    let option4 : [String] = ["None of the Above",
+                              "Entrepreneurial skills and wood",
+                              "D",
+                              "Solar battery storage",
+                              "Complement and demand rises",
+                              "ability, ability"]
     
     // Instance Outlets
     @IBOutlet weak var ChangeNameTextFieldView: UITextField!
@@ -77,6 +104,10 @@ class HomeViewController: UIViewController {
         let Dictionary : [String] = ["Primary Sector: this sector functions by obtaining materials from nature and converting it into raw materials. \n\n Secondary Sector: this sector uses the raw materials to manufacture goods or services. \n\n Tertiary sector- this is the retail sector, responsible for selling the good or service.", "Factors of Production: There are 4 factors which are used together to produce a given good or a service. They are Land, Labour, Capital, and Enterprise. Land is all natural resources, eg. wood. Labour is human resources, eg. workers. Capital is manmade resources, eg. machinery. Enterprise is the risk-taking ability and the ability to combine the other three factors of production to produce goods or services.", "Profit- selling price-cost price \n\n There is an ‘economic problem’ which is known as scarcity. Wants are unlimited but the resources are limited. For example, Person x has $20. They can either buy a book worth $20 or shoes worth $20, but they cannot buy both as they only have $20. Therefore, they must make a choice, and the option they don’t choose becomes the Opportunity Cost. If Person X chooses the books over the shoes, shoes will be the opportunity cost because it is the next best alternative.", "There are two main types of goods: Economic and Free goods. Economic goods have a price assigned to them. Thus, they have an Opportunity Cost. Every manufactured good is an economic good; for example, clothes, candy, shoes, pencils, and etc. Free goods are gifts of nature that you don’t have to pay for. For example, air, forests, etc.", "Demand: the willingness and ability to buy a given good or service. For example, Charlie wants to buy a laptop worth $500, meaning he is willing. However, he does not have $500, therefore he is NOT  able to buy the good. \n\n The demand for a good is influenced by several factors such as income, tastes and preferences, advertising, and price of related goods. \n\n Income is the money earned by someone through employment. If income rises, the demand for a normal good tends to rise. If the good is an inferior good, its demand will fall as income rises. \n\n Tastes and preferences are likings of people. For example, if someone likes ice creams, it is likely that they will demand ice creams. A persuasive advertising campaign will encourage people to buy the given good. \n\n Related goods are of two types: complementary goods and substitute goods. Complementary goods are those goods that are used together. For example, bread and butter. Substitute goods are goods that can be used in place of each other. For example, Coca-cola and Pepsi.", "Supply is the willingness and ability to sell a good or service. \n\n Factors affecting supply are supply shocks, taxes, subsidies, technology, and cost of factors of production. \n\n Supply shocks are unexpected events that affect the supply of a good or s service. For example, due to a war or a hurricane, chocolate cannot be exported by the Ivory Coast in Africa. \n\n Taxes in terms of supply are corporate taxes. Corporate taxes are aimed at a firm’s profits; a certain percentage of the firm’s profits are taken by the government. For example, if the percentage of tax/ tax rate is increased, suppliers will supply less as a greater proportion of their profits will be taken by the government. \n\n Subsidies are payments made by the government to producers to encourage the production of certain beneficial goods. For example, governments often provide subsidies to private firms providing education or healthcare since both services are beneficial to society. \n\n Advancements in Technology increase the supply of a given good by improving efficiency. For example, before the printing press was introduced, all books were handwritten. Thus, the production of books was a time-consuming and expensive process. With the printing press, however, the supply rose as efficiency increased. \n\n As studied earlier, factors of production are land, labour, capital, and enterprise. The price of these factors determines the cost of producing the good. Therefore, if the price of the factors of production rises, the cost of production rises. Hence, making it expensive for the producer to produce and vice-versa."]
         
         DefinitionTextView.text = Dictionary[level]
+        Option1ButtonView.setTitle(option1[level], for: .normal)
+        Option2ButtonView.setTitle(option2[level], for: .normal)
+        Option3ButtonView.setTitle(option3[level], for: .normal)
+        Option4ButtonView.setTitle(option4[level], for: .normal)
     }
     
     // Content Function
