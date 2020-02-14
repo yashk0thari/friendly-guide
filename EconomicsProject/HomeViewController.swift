@@ -275,17 +275,20 @@ class HomeViewController: UIViewController {
     
     @IBAction func Option2ButtonAction(_ sender: UIButton) {
      
-        level += 1
+        level += 2
+        _ = navigationController?.popViewController(animated: true)
     }
     
     @IBAction func Option3ButtonAction(_ sender: UIButton) {
      
-        level += 1
+        level += 2
+        _ = navigationController?.popViewController(animated: true)
     }
     
     @IBAction func Option4ButtonAction(_ sender: UIButton) {
      
-        level += 1
+        level += 2
+        _ = navigationController?.popViewController(animated: true)
     }
     
     
@@ -311,7 +314,7 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        navigationController?.setNavigationBarHidden(true, animated: animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
     // Definitions View
