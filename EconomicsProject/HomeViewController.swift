@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
     
     // Content Handler Variables
     var contentNum = 0
-    let content : [Int] = [4, 6, 5, 3, 5, 10, 7, 6, 25]
+    let content : [Int] = [4, 6, 5, 4, 5, 10, 7, 6, 25]
     
     // Instance Outlets
     @IBOutlet weak var ChangeNameTextFieldView: UITextField!
@@ -79,10 +79,9 @@ class HomeViewController: UIViewController {
             case 3: return "Tertiary sector: this is the retail sector, responsible for selling the good or service."
                 
             case 4:
-                DialogueLabelView.text = content(num: 3, level: level)
                 OptionsView.isHidden = false
+                return "Tertiary sector: this is the retail sector, responsible for selling the good or service."
                 
-            // Multiple Choice #1
             default: return "Error Loading Content"
             }
         
@@ -97,11 +96,8 @@ class HomeViewController: UIViewController {
             case 5: return "Enterprise is the risk-taking ability and the ability to combine the other three factors of production to produce goods or services"
                 
             case 6:
-                print("Lol: \(content(num: 5, level: level))")
-                DialogueLabelView.text = content(num: 5, level: level)
                 OptionsView.isHidden = false
-                
-            // Multiple Choice #2
+                return "Enterprise is the risk-taking ability and the ability to combine the other three factors of production to produce goods or services"
                 
             default: return "Error Loading Content"
             }
@@ -128,8 +124,10 @@ class HomeViewController: UIViewController {
             case 1: return "There are two main types of goods: Economic and Free goods. Economic goods have a price assigned to them. Thus, they have an Opportunity Cost. Every manufactured good is an economic good; for example, clothes, candy, shoes, pencils, and etc. Free goods are gifts of nature that you don’t have to pay for. For example, air, forests, etc."
             case 2: return " Every manufactured good is an economic good; for example, clothes, candy, shoes, pencils, and etc. Free goods are gifts of nature that you don’t have to pay for. For example, air, forests, etc."
             case 3: return "In the case of solar panels, which good can be considered as a free or economic good?"
-                
-            // Multiple Choice #3
+            
+            case 4:
+                OptionsView.isHidden = false
+                return "In the case of solar panels, which good can be considered as a free or economic good?"
                 
             default: return "Error Loading Content"
             }
@@ -312,7 +310,7 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: animated)
+//        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
     // Definitions View

@@ -8,9 +8,6 @@
 
 import UIKit
 
-// Universal Variables
-var level = 0
-
 class mapVC: UIViewController {
 
     override func viewDidLoad() {

@@ -10,6 +10,9 @@ import UIKit
 import Firebase
 import GoogleSignIn
 
+// Universal Variables
+var level = 1
+
 extension UIViewController {
     
     func HideKeyboard() {
