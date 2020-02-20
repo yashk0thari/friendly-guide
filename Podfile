@@ -12,6 +12,7 @@ target 'EconomicsProject' do
   pod 'Firebase/Auth'
   pod 'JGProgressHUD'
   pod 'GoogleSignIn'
+  pod 'SCLAlertView'
 
   target 'EconomicsProjectTests' do
     inherit! :search_paths

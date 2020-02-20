@@ -233,7 +233,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Knm-EI-rHf" userLabel="Story">
                                 <rect key="frame" x="819" y="275" width="52" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="message"/>
+                                <state key="normal" image="photo"/>
                                 <connections>
                                     <action selector="StoryButtonAction:" destination="PjZ-YH-cNw" eventType="touchUpInside" id="Bzd-T6-1df"/>
                                 </connections>
@@ -530,7 +530,7 @@
         <image name="Snapchat" width="42" height="42"/>
         <image name="Volume 9.00.45 AM" width="30" height="25"/>
         <image name="map" width="2210" height="1333"/>
-        <image name="message" width="52" height="52"/>
+        <image name="photo" width="52" height="52"/>
         <image name="star" width="800" height="800"/>
     </resources>
 </document>
