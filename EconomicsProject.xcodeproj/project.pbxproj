@@ -22,6 +22,7 @@
 		CC06E5F023A3E12D001770D3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06E5EC23A3E12D001770D3 /* GameScene.swift */; };
 		CC06E5F323A3E13E001770D3 /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5F223A3E13E001770D3 /* PatrickHand-Regular.ttf */; };
 		CC06E5F523A3E27D001770D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */; };
+		CCA12DEE23FFFC70004FABCC /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA12DED23FFFC70004FABCC /* AppUtils.swift */; };
 		FCDB5BC976DD81609C19A09D /* Pods_EconomicsProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8D408C06EFC08AA690039 /* Pods_EconomicsProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		CC06E5EC23A3E12D001770D3 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CC06E5F223A3E13E001770D3 /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
 		CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCA12DED23FFFC70004FABCC /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		CDBAD0D2804ADE426C8C315C /* Pods-EconomicsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProject.release.xcconfig"; path = "Target Support Files/Pods-EconomicsProject/Pods-EconomicsProject.release.xcconfig"; sourceTree = "<group>"; };
 		CDEAF1D49A8E76C414ED450A /* Pods-EconomicsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconomicsProjectTests.release.xcconfig"; path = "Target Support Files/Pods-EconomicsProjectTests/Pods-EconomicsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 				1CA09BA123EA95BF00765A04 /* mapVC.swift */,
 				CC06E5EB23A3E12D001770D3 /* ViewController.swift */,
 				CC06E5BD23A3E0C0001770D3 /* Main.storyboard */,
+				CCA12DED23FFFC70004FABCC /* AppUtils.swift */,
 				CC06E5C023A3E0C0001770D3 /* Assets.xcassets */,
 				CC06E5C223A3E0C0001770D3 /* LaunchScreen.storyboard */,
 				CC06E5F423A3E27D001770D3 /* GoogleService-Info.plist */,
@@ -473,6 +476,7 @@
 				CC06E5E823A3E109001770D3 /* AppDelegate.swift in Sources */,
 				1CA09BA223EA95BF00765A04 /* mapVC.swift in Sources */,
 				CC06E5EF23A3E12D001770D3 /* ViewController.swift in Sources */,
+				CCA12DEE23FFFC70004FABCC /* AppUtils.swift in Sources */,
 				CC06E5EE23A3E12D001770D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

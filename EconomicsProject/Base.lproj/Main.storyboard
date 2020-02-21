@@ -308,7 +308,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Ag2-wl-hza">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainmap" translatesAutoresizingMaskIntoConstraints="NO" id="Ag2-wl-hza">
                                 <rect key="frame" x="-20" y="14" width="936" height="386"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rle-jm-7mL">
@@ -529,7 +529,7 @@
         <image name="SettingsBackground" width="450" height="300"/>
         <image name="Snapchat" width="42" height="42"/>
         <image name="Volume 9.00.45 AM" width="30" height="25"/>
-        <image name="map" width="2210" height="1333"/>
+        <image name="mainmap" width="2210" height="1333"/>
         <image name="photo" width="52" height="52"/>
         <image name="star" width="800" height="800"/>
     </resources>
